@@ -10,14 +10,11 @@ from uuid import uuid4
 
 import aiofiles
 import aiofiles.os
-import matplotlib.pyplot as plt
 from aiocache import cached
 from aiogram import executor, types
 from aiogram.types.message import ContentTypes
 from aiogram.utils.exceptions import TelegramAPIError, BadRequest, MigrateToChat
 from aiogram.utils.markdown import quote_html
-from matplotlib.dates import DateFormatter
-from matplotlib.ticker import MaxNLocator
 
 from constants import (
     bot, on9bot, dp, VIP, VIP_GROUP, ADMIN_GROUP_ID, OFFICIAL_GROUP_ID, WORD_ADDITION_CHANNEL_ID,
