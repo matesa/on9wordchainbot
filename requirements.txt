@@ -5,5 +5,3 @@ aiogram
 aiohttp
 asyncpg
 cchardet
-matplotlib
-pillow
