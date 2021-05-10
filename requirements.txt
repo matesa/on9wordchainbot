@@ -1,5 +1,4 @@
 aiocache
-aiodns
 aiofiles
 aiogram
 aiohttp
